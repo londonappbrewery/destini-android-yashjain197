@@ -105,10 +105,10 @@ public class MainActivity extends AppCompatActivity {
             Ans2.setText(answer2[Index]);
 
         }else{
-            Ans1.setText(" ");
-            Ans2.setText(" ");
+            Ans1.setVisibility(View.GONE);
+            Ans2.setVisibility(View.GONE);
         }
-        
+
     }
 
 }
